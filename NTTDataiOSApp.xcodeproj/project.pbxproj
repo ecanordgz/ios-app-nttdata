@@ -1,0 +1,413 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E9F838172A3286F900E454E5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F838162A3286F900E454E5 /* AppDelegate.swift */; };
+		E9F838192A3286F900E454E5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F838182A3286F900E454E5 /* SceneDelegate.swift */; };
+		E9F8381B2A3286F900E454E5 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F8381A2A3286F900E454E5 /* HomeViewController.swift */; };
+		E9F8381E2A3286F900E454E5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9F8381C2A3286F900E454E5 /* Main.storyboard */; };
+		E9F838202A3286FD00E454E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9F8381F2A3286FD00E454E5 /* Assets.xcassets */; };
+		E9F838232A3286FD00E454E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9F838212A3286FD00E454E5 /* LaunchScreen.storyboard */; };
+		E9F8382B2A3288C000E454E5 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F8382A2A3288C000E454E5 /* DetailViewController.swift */; };
+		E9F838302A3289E900E454E5 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F8382F2A3289E800E454E5 /* Product.swift */; };
+		E9F838322A328A8300E454E5 /* Products.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F838312A328A8300E454E5 /* Products.swift */; };
+		E9F838342A328C7E00E454E5 /* ProductsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F838332A328C7E00E454E5 /* ProductsModel.swift */; };
+		E9F838362A328EF600E454E5 /* ProductsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F838352A328EF600E454E5 /* ProductsPresenter.swift */; };
+		E9F838382A32933F00E454E5 /* ProductTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F838372A32933F00E454E5 /* ProductTableViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E9F838132A3286F900E454E5 /* NTTDataiOSApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NTTDataiOSApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9F838162A3286F900E454E5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E9F838182A3286F900E454E5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E9F8381A2A3286F900E454E5 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		E9F8381D2A3286F900E454E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E9F8381F2A3286FD00E454E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E9F838222A3286FD00E454E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E9F838242A3286FD00E454E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9F8382A2A3288C000E454E5 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		E9F8382F2A3289E800E454E5 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		E9F838312A328A8300E454E5 /* Products.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Products.swift; sourceTree = "<group>"; };
+		E9F838332A328C7E00E454E5 /* ProductsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsModel.swift; sourceTree = "<group>"; };
+		E9F838352A328EF600E454E5 /* ProductsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsPresenter.swift; sourceTree = "<group>"; };
+		E9F838372A32933F00E454E5 /* ProductTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductTableViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E9F838102A3286F800E454E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E9F8380A2A3286F800E454E5 = {
+			isa = PBXGroup;
+			children = (
+				E9F838152A3286F900E454E5 /* NTTDataiOSApp */,
+				E9F838142A3286F900E454E5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E9F838142A3286F900E454E5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E9F838132A3286F900E454E5 /* NTTDataiOSApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E9F838152A3286F900E454E5 /* NTTDataiOSApp */ = {
+			isa = PBXGroup;
+			children = (
+				E9F8382E2A32892600E454E5 /* Model */,
+				E9F8382D2A32891D00E454E5 /* Presenter */,
+				E9F8382C2A32890500E454E5 /* View */,
+				E9F838162A3286F900E454E5 /* AppDelegate.swift */,
+				E9F838182A3286F900E454E5 /* SceneDelegate.swift */,
+				E9F8381C2A3286F900E454E5 /* Main.storyboard */,
+				E9F8381F2A3286FD00E454E5 /* Assets.xcassets */,
+				E9F838212A3286FD00E454E5 /* LaunchScreen.storyboard */,
+				E9F838242A3286FD00E454E5 /* Info.plist */,
+			);
+			path = NTTDataiOSApp;
+			sourceTree = "<group>";
+		};
+		E9F8382C2A32890500E454E5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E9F8382A2A3288C000E454E5 /* DetailViewController.swift */,
+				E9F8381A2A3286F900E454E5 /* HomeViewController.swift */,
+				E9F838372A32933F00E454E5 /* ProductTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E9F8382D2A32891D00E454E5 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				E9F838352A328EF600E454E5 /* ProductsPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		E9F8382E2A32892600E454E5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E9F8382F2A3289E800E454E5 /* Product.swift */,
+				E9F838312A328A8300E454E5 /* Products.swift */,
+				E9F838332A328C7E00E454E5 /* ProductsModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E9F838122A3286F800E454E5 /* NTTDataiOSApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9F838272A3286FD00E454E5 /* Build configuration list for PBXNativeTarget "NTTDataiOSApp" */;
+			buildPhases = (
+				E9F8380F2A3286F800E454E5 /* Sources */,
+				E9F838102A3286F800E454E5 /* Frameworks */,
+				E9F838112A3286F800E454E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NTTDataiOSApp;
+			productName = NTTDataiOSApp;
+			productReference = E9F838132A3286F900E454E5 /* NTTDataiOSApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E9F8380B2A3286F800E454E5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					E9F838122A3286F800E454E5 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+				};
+			};
+			buildConfigurationList = E9F8380E2A3286F800E454E5 /* Build configuration list for PBXProject "NTTDataiOSApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E9F8380A2A3286F800E454E5;
+			productRefGroup = E9F838142A3286F900E454E5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E9F838122A3286F800E454E5 /* NTTDataiOSApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E9F838112A3286F800E454E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9F838232A3286FD00E454E5 /* LaunchScreen.storyboard in Resources */,
+				E9F838202A3286FD00E454E5 /* Assets.xcassets in Resources */,
+				E9F8381E2A3286F900E454E5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E9F8380F2A3286F800E454E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9F838342A328C7E00E454E5 /* ProductsModel.swift in Sources */,
+				E9F8381B2A3286F900E454E5 /* HomeViewController.swift in Sources */,
+				E9F838382A32933F00E454E5 /* ProductTableViewCell.swift in Sources */,
+				E9F838172A3286F900E454E5 /* AppDelegate.swift in Sources */,
+				E9F838302A3289E900E454E5 /* Product.swift in Sources */,
+				E9F838322A328A8300E454E5 /* Products.swift in Sources */,
+				E9F838192A3286F900E454E5 /* SceneDelegate.swift in Sources */,
+				E9F838362A328EF600E454E5 /* ProductsPresenter.swift in Sources */,
+				E9F8382B2A3288C000E454E5 /* DetailViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E9F8381C2A3286F900E454E5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E9F8381D2A3286F900E454E5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E9F838212A3286FD00E454E5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E9F838222A3286FD00E454E5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E9F838252A3286FD00E454E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E9F838262A3286FD00E454E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E9F838282A3286FD00E454E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 92L8J2476L;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NTTDataiOSApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ecanordgz.NTTDataiOSApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E9F838292A3286FD00E454E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 92L8J2476L;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NTTDataiOSApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ecanordgz.NTTDataiOSApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E9F8380E2A3286F800E454E5 /* Build configuration list for PBXProject "NTTDataiOSApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9F838252A3286FD00E454E5 /* Debug */,
+				E9F838262A3286FD00E454E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E9F838272A3286FD00E454E5 /* Build configuration list for PBXNativeTarget "NTTDataiOSApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9F838282A3286FD00E454E5 /* Debug */,
+				E9F838292A3286FD00E454E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E9F8380B2A3286F800E454E5 /* Project object */;
+}
